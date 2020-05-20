@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -33,7 +33,7 @@
   <div class="help-block text-center">
     <div class="callout callout-success">
       <h4>Senha Alterada!</h4>
-      <p>Tente fazer o login com sua nova senha.<br><a href="/ecommerce/admin/login">Clique aqui</a> para fazer o login.</p>
+      <p>Tente fazer o login com sua nova senha.<br><a href="/admin/login">Clique aqui</a> para fazer o login.</p>
     </div>
   </div>
   <div class="lockscreen-footer text-center">
